@@ -1,4 +1,4 @@
-package com.example.zookeeperdemos;
+package com.example.zookeeperdemos.monitor;
 
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.KeeperException;
@@ -7,11 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.IOException;
 import java.util.UUID;
-
 import static org.apache.zookeeper.ZooDefs.Ids.OPEN_ACL_UNSAFE;
 
 @SpringBootApplication
-public class Server2 {
+public class Server1 {
 
 	public static void main(String[] args) throws IOException, InterruptedException, KeeperException {
 //		SpringApplication.run(ZookeeperDemosApplication.class, args);

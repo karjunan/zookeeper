@@ -1,4 +1,4 @@
-package com.example.zookeeperdemos;
+package com.example.zookeeperdemos.monitor;
 
 import org.apache.zookeeper.KeeperException;
 import org.apache.zookeeper.ZooKeeper;
